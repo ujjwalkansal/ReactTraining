@@ -1,0 +1,101 @@
+.container1 {
+  background-color: #f2f3fb;
+  width: 25vw;
+  height: 70vh;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 40px 20px 20px 20px;
+}
+
+.h1tag {
+  padding: 0;
+  margin: 0;
+  width: max-content;
+}
+
+.free_text {
+  font-size: 30px;
+  /* float: right; */
+}
+
+.upper_head {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  position: relative;
+}
+
+.free_div {
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.grey_text {
+  font-size: 12px;
+  color: grey;
+}
+
+.blue_line {
+  width: 17px;
+  text-align: left;
+  margin-left: 0;
+  margin-top: 18px;
+  height: 4px;
+  background-color: #6000b7;
+  border: none;
+}
+
+.plan_text {
+  font-weight: bold;
+  font-size: 13px;
+  color: #404143;
+  margin-top: 30px;
+}
+
+.plans_list {
+  box-sizing: border-box;
+  margin-right: 17px;
+  /* height: max-content; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.plans_tick {
+  color: #8966c2;
+  /* height: 40px; */
+}
+
+.plans_text {
+  margin-left: 15px;
+  color: #323335;
+  font-size: 13px;
+}
+
+.plan_item {
+  display: flex;
+  flex-direction: row;
+  height: max-content;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.features_text {
+  color: #141414;
+  font-size: 10px;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.free_pro_plan_btn {
+  color: white;
+  background-color: #6000b7;
+  border: none;
+  padding: 15px;
+  border-radius: 12px;
+  font-weight: bold;
+}

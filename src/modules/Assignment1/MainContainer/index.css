@@ -1,0 +1,61 @@
+.mainContainer {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  padding: 35px 100px;
+}
+
+.mainContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.first_flex {
+  width: 36%;
+}
+.second_flex {
+  width: 67%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.third_flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.upper_flex {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.start_now_text {
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.corporate_text {
+  font-size: 13px;
+  float: right;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.purple_text {
+  color: purple;
+  float: right;
+}
+
+.right_text {
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
