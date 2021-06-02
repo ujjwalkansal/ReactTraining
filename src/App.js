@@ -1,12 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Home from "./modules/home";
 
-function App() {
-  return (
-    <div className="App">
-      My first commit in second branch
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return <Home />;
+  }
 }
 
 export default App;
