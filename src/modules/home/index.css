@@ -1,0 +1,17 @@
+.homeContainer {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+}
+
+.h1tag {
+  color: blue;
+  margin: 0;
+  padding: 0;
+}
+
+.h2tag {
+  margin: 0;
+  padding: 0;
+  color: rgb(135, 166, 251);
+}
