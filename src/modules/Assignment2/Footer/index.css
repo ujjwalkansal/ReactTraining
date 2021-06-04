@@ -1,0 +1,23 @@
+.footer_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #05295d;
+  width: 100%;
+}
+
+.footer_container img {
+  height: 20px;
+  width: 20px;
+  margin: 0px 5px;
+}
+
+.footer_container p {
+  color: #9cb6d9;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-size: 15px;
+}

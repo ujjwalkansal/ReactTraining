@@ -1,0 +1,45 @@
+.blue_card_light {
+  background-color: #02c4e7;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+.blue_card_dark {
+  background-color: #02b0d2;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.card_dim {
+  width: 100%;
+  height: 140px;
+  align-items: center;
+}
+
+.card_img {
+  width: 125px;
+  height: 125px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.card_heading {
+  color: #003864;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card_text {
+  color: #005773;
+  width: 95%;
+}
+
+.card_right_part {
+  margin-left: 20px;
+  width: 430px;
+}
