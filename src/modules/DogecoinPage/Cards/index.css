@@ -1,0 +1,65 @@
+.cards_holder {
+  margin-top: 144px;
+}
+
+.cards_div {
+  width: 1126.6px;
+  height: 338.4px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  position: relative;
+}
+.white_card {
+  width: 499.6px;
+  height: 298.4px;
+  border-radius: 32.5px;
+  box-shadow: 0 3px 21px 0 rgba(0, 0, 0, 0.05);
+  border: solid 1px rgba(99, 118, 150, 0.2);
+  background-color: #ffffff;
+}
+
+.exchange_text {
+  box-sizing: border-box;
+  font-family: Rubik;
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000808;
+  margin-left: 41.6px;
+  margin-top: 60px;
+  /* margin-right: 65px; */
+}
+
+.small_text {
+  box-sizing: border-box;
+  margin-left: 41.6px;
+  margin-right: 49px;
+  font-family: NunitoSans;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.8;
+  letter-spacing: normal;
+  text-align: left;
+  color: #637696;
+}
+
+.masterCard {
+  position: absolute;
+  top: 20px;
+  left: 281.4px;
+  z-index: 1;
+}
+
+.text_card_div {
+  position: absolute;
+  top: 40px;
+  left: 626px;
+  z-index: 1;
+}

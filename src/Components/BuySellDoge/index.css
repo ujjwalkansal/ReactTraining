@@ -1,0 +1,228 @@
+.buySellDoge {
+  height: 537px;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  font-family: Rubik;
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000808;
+}
+
+.only3 {
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000808;
+  margin-top: 19px;
+}
+
+.cards_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 36px;
+}
+
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 328px;
+  height: 298.2px;
+}
+
+.step_head_div {
+  margin-top: 22px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 22px;
+  height: max-content;
+  align-items: center;
+  justify-content: center;
+}
+
+.ellipse {
+  width: 55px;
+  height: 55px;
+  background-color: #009cde;
+  border-radius: 50%;
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  /* line-height: 2.5; */
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  box-sizing: border-box;
+  padding: 16px 25px 15px 21px;
+}
+
+.round_ellipse {
+  width: 55px;
+  height: 55px;
+  background-color: #86c306;
+  border-radius: 25%;
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  /* line-height: 2.5; */
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  box-sizing: border-box;
+  padding: 16px 25px 15px 21px;
+}
+
+.step_heading {
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  /* line-height: 2.5; */
+  letter-spacing: normal;
+  text-align: left;
+  color: #000808;
+  margin-left: 24px;
+}
+
+.step_desc {
+  width: 328px;
+  font-family: NunitoSans;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.8;
+  letter-spacing: normal;
+  text-align: center;
+  color: #637696;
+}
+
+.card1image {
+  margin-top: 82px;
+}
+
+.card3image {
+  margin-top: 75px;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card2image {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  margin-top: 47.8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  box-sizing: border-box;
+  width: 330px;
+  height: 65px;
+  border-radius: 50px;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.06;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  margin: 0 auto;
+}
+
+.blue {
+  background-color: #009cde;
+}
+
+.green {
+  background-color: #86c306;
+}
+
+.text_near_timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text_near_timer .blue_text {
+  color: #009cde;
+}
+.text_near_timer .green_text {
+  color: #86c306;
+}
+
+.a15_text {
+  font-family: Axiforma;
+  font-size: 28px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  /* line-height: 1.86; */
+  letter-spacing: 4.2px;
+  text-align: center;
+}
+.a15_text .blue_text {
+  color: #009cde;
+}
+
+.a15_text .green_text {
+  color: #86c306;
+}
+
+.MIN {
+  font-family: Axiforma;
+  font-size: 10px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  /* line-height: 1.8; */
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+.MIN .blue_text {
+  color: #009cde;
+}
+
+.MIN .green_text {
+  color: #86c306;
+}
+
+.lightning {
+  width: 5.7px;
+  height: 10.4px;
+  margin-left: 2.7px;
+  /* padding: 1.4px 0.6px 1.6px 0.7px; */
+  object-fit: contain;
+}
+
+.lightning .blue_text {
+  background-color: #009cde;
+}
+
+.lightning .green_text {
+  background-color: #86c306;
+}

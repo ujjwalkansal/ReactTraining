@@ -1,0 +1,143 @@
+.debitCard {
+  border-radius: 32.5px;
+  box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.05);
+  border: solid 1px rgba(99, 118, 150, 0.2);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.small {
+  width: 331.6px;
+  height: 198.4px;
+  background-color: #fff6f6;
+}
+
+.small img {
+  width: 53.9px;
+  height: 42px;
+  margin-left: 29.6px;
+  margin-top: 20.3px;
+  object-fit: contain;
+  float: left;
+}
+
+.large img {
+  width: 89.7px;
+  height: 29px;
+  object-fit: contain;
+  margin-left: 36.3px;
+  margin-top: 25.6px;
+  float: left;
+}
+
+.large {
+  width: 415.2px;
+  height: 248.4px;
+  background-color: #f6fcff;
+}
+
+.small .black_dot {
+  width: 6px;
+  height: 6px;
+  font-size: 16px;
+  margin-right: 6px;
+  border-radius: 50%;
+  background-color: #637696;
+}
+
+.large .black_dot {
+  width: 7.5px;
+  height: 7.5px;
+  font-size: 19px;
+  margin-right: 7.5px;
+  border-radius: 50%;
+  background-color: #637696;
+}
+
+.small .card_number {
+  width: 81%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 16px;
+  align-items: center;
+  margin-top: 26.2px;
+  margin-left: 29.6px;
+}
+
+.large .card_number {
+  width: 81%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 19px;
+  align-items: center;
+  margin-top: 56.1px;
+  margin-left: 37.1px;
+}
+
+.small .card_no_part {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  font-size: 16px;
+  color: #637696;
+}
+
+.large .card_no_part {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  font-size: 19px;
+  color: #637696;
+}
+
+.small .holder_name {
+  display: flex;
+  flex-direction: column;
+  font-family: NunitoSans;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  /* line-height: 2.57; */
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--blue-grey);
+  margin-left: 29.6px;
+  margin-top: 22px;
+}
+
+.large .holder_name {
+  display: flex;
+  flex-direction: column;
+  font-family: NunitoSans;
+  font-size: 17px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  /* line-height: 2.57; */
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--blue-grey);
+  margin-left: 37.1px;
+  margin-top: 29.1px;
+}
+
+.holder_name .name {
+  font-weight: 600;
+}
+
+.name_date {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.expiry {
+  margin-right: 31px;
+}
+.large .expiry {
+  margin-right: 40.7px;
+}

@@ -1,0 +1,20 @@
+.currency_box {
+  width: 454px;
+  height: 400px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px 0 rgba(37, 119, 167, 0.07);
+  background-color: #ffffff;
+  margin-top: 16px;
+  margin-left: 76px;
+}
+
+.curr_head {
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #000000;
+  margin-top: 33px;
+}

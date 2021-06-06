@@ -1,0 +1,117 @@
+@font-face {
+  font-family: Rubik;
+  src: local(Rubik-Bold),
+    url(../../../utils//fonts/rubik/Rubik-Bold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: Rubik;
+  src: local(Rubik-Medium),
+    url(../../../utils//fonts/rubik/Rubik-Medium.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: NunitoSans;
+  src: local(NunitoSans-Regular),
+    url(../../../utils/fonts/nutino/nunito-sans.regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+.WhyXcoinsContainer {
+  /* width: 100%; */
+  box-sizing: border-box;
+  /* margin-right: 224px; */
+  display: flex;
+  flex-direction: row;
+  float: left;
+  /* margin-left: 65.09px; */
+  margin-right: 182px;
+  margin-top: 88px;
+}
+
+.right_box {
+  margin-left: 65.09px;
+}
+
+.shutterstock_img {
+  width: 720px;
+  height: 580px;
+  /* margin: 1357.6px 75.9px 127px 0; */
+  /* object-fit: contain; */
+  border-radius: 15px;
+  /* position: absolute; */
+  margin-left: -58px;
+  margin-top: 10px;
+  float: left;
+}
+
+/* .imgContainer {
+  width: min-content;
+  height: min-content;
+} */
+
+.whyHeading {
+  /* margin: 88px 77px 36px 264px; */
+  font-family: Rubik;
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000808;
+}
+
+.reasons_div1 {
+  display: flex;
+  align-items: center;
+  margin-top: 36px;
+}
+
+.reasons_div2 {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.reason_heading {
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  /* line-height: 2.5; */
+  letter-spacing: normal;
+  text-align: left;
+  color: #000808;
+  margin-left: 12px;
+}
+
+.reason_desc {
+  font-family: NunitoSans;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.8;
+  letter-spacing: normal;
+  text-align: left;
+  color: #637696;
+  margin-top: 20px;
+}
+
+.reason_desc .first {
+  margin-top: 20px;
+}
+.reason_desc .second {
+  margin-top: 16.8px;
+}
