@@ -35,7 +35,7 @@ function WhyXCoins() {
             "If you have any questions about Dogecoin or how to buy & sell it, you can contact our 24/7 customer support team"
           }
         </p>
-        <div style={{ marginTop: "25px" }}>
+        <div style={{ marginTop: "20.34px" }}>
           <SignupBox />
         </div>
       </div>

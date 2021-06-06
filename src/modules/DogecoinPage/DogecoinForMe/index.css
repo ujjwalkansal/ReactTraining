@@ -1,0 +1,54 @@
+.for_me_container {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  margin-top: 125px;
+}
+
+.women_img {
+  width: 636.2px;
+  height: 447.5px;
+  /* object-fit: contain; */
+  border-radius: 15px;
+  float: left;
+  margin-left: -50px;
+}
+
+.for_me_heading {
+  font-family: Rubik;
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000808;
+}
+
+.for_me_text {
+  width: 563px;
+  height: 99px;
+  /* margin: 936px 228px 20px 89px; */
+  font-family: NunitoSans;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.8;
+  letter-spacing: normal;
+  text-align: left;
+  color: #637696;
+  margin-top: 20px;
+}
+
+.for_me_text_container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 72px;
+  margin-top: 110px;
+}
+
+.signup_box_container_div {
+  margin-top: 20px;
+}

@@ -5,6 +5,8 @@ import BuySellDoge from "../../../Components/BuySellDoge";
 import WhyXCoins from "../WhyXCoins";
 import "./index.css";
 import WhatIsDogecoin from "../WhatIsDogecoin";
+import WhereToSpend from "../WhereToSpend";
+import DogecoinForMe from "../DogecoinForMe";
 
 function MainContainer() {
   return (
@@ -52,6 +54,9 @@ function MainContainer() {
       </div>
       <WhyXCoins />
       <WhatIsDogecoin />
+      <WhereToSpend />
+      <DogecoinForMe />
+      <div className={"horiz_line"}></div>
     </div>
   );
 }
