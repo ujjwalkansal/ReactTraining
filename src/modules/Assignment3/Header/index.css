@@ -1,0 +1,117 @@
+:root {
+  --blue-grey: #637696;
+  --squash: #e6b413;
+  --green-blue: #00b178;
+  --denim-blue-30: rgba(60, 90, 154, 0.3);
+  --scarlet: #d0021b;
+  --dark-lime-green: #86c306;
+  --nice-blue-7: rgba(23, 115, 166, 0.07);
+  --dark-grey-blue: #3a4e6f;
+  --cerulean-30: rgba(0, 156, 222, 0.3);
+  --golden-yellow: #f8c41c;
+  --ice-blue: #f6fcff;
+  --bluey-grey: #abb5c7;
+  --cerulean: #009cde;
+  --azure: #22afff;
+  --dark-grey: #293038;
+  --ice-blue-two: #f9fdff;
+  --black: #000000;
+}
+
+.header_div {
+  display: flex;
+  flex-direction: row;
+  padding: 18px 25px 0px 25px;
+  height: max-content;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: inline-block;
+  /* flex-direction: column;
+  justify-content: space-between; */
+  cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 14px;
+  height: 2px;
+  margin: 3px 0;
+  border-radius: 1px;
+  background-color: var(--cerulean);
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.toggle_cover {
+  width: 34px;
+  height: 34px;
+  box-shadow: 0 10px 20px 0 rgba(37, 119, 167, 0.07);
+  background-color: #ffffff;
+  text-align: center;
+  /* vertical-align: center; */
+  /* padding: 10px; */
+  box-sizing: border-box;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.xcoin_logo {
+  margin-left: 25px;
+  margin-right: 57px;
+  width: 89px;
+}
+
+.setting_btn {
+  width: 22px;
+  height: 22px;
+  /* padding: 6px; */
+  /* background-color: var(--dark-grey-blue); */
+}
+
+.bell_btn {
+  width: 18px;
+  height: 18px;
+  /* padding: 6px; */
+  padding-left: 25px;
+  padding-right: 21px;
+}
+
+.profile_btn {
+  width: 34px;
+  height: 34px;
+  /* padding: 10px; */
+  border-radius: 40%;
+}
+
+@media screen and (max-width: 600px) {
+  .header_div {
+    visibility: visible;
+  }
+}
+
+@media screen and (max-width: 960px) and (min-width: 601px) {
+  .header_div {
+    visibility: collapse;
+  }
+}
+@media screen and (min-width: 961px) {
+}

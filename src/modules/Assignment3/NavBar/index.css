@@ -1,0 +1,53 @@
+.nav_bar {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo_container {
+  width: 75%;
+  margin: 0px auto;
+  height: 112px;
+  display: flex;
+  align-items: center;
+}
+
+.topic_text {
+  font-family: AkkuratPro;
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  color: rgba(58, 78, 111, 0.4);
+  padding-left: 40px;
+}
+
+.nav_bar_btn {
+  font-family: AkkuratPro;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  color: #3a4e6f;
+  background-color: transparent;
+  width: 210px;
+  height: 46px;
+  margin: 12px 0 0;
+  border: none;
+  text-align: left;
+  padding-left: 40px;
+}
+.nav_bar_btn.clicked {
+  width: 210px;
+  height: 46px;
+  margin: 12px 0 0;
+  /* padding: 10px 84px 14px 40px; */
+  /* opacity: 0.05; */
+  border-radius: 0px 23px 23px 0px;
+  background-color: rgba(0, 156, 222, 0.05);
+  border: none;
+  color: var(--cerulean);
+}

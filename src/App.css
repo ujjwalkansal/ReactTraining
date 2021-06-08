@@ -38,3 +38,10 @@
     transform: rotate(360deg);
   }
 }
+
+.main_container {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 375px;
+}
