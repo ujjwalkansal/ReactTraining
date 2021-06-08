@@ -95,6 +95,8 @@
   flex-direction: row;
   justify-content: center;
   margin-top: 15px;
+  position: relative;
+  z-index: 5;
 }
 
 .currency_icon {
