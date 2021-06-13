@@ -1,20 +1,18 @@
 import React from "react";
 import "./index.css";
 
-function QuestionBox() {
+function QuestionBox(props) {
   return (
     <div className={"question_container"}>
       <div>
         <div className={"question_category_div"}>
-          <p className={"question_category"}>{"Buy currency"}</p>
+          <p className={"question_category"}>{props.question_category}</p>
         </div>
         <div>
           <ul className={"list_items"}>
-            <li>{"What is my wallet address?"}</li>
-            <li>{"What is my wallet address?"}</li>
-            <li>{"What is my wallet address?"}</li>
-            <li>{"What is my wallet address?"}</li>
-            <li>{"What is my wallet address?"}</li>
+            {props.questions.map((i) => {
+              return <li>{i}</li>;
+            })}
           </ul>
         </div>
       </div>

@@ -4,6 +4,7 @@ import SearchSection from "../SearchSection";
 import QuestionBox from "../QuestionBox";
 import NavBar from "../NavBar";
 import "./index.css";
+import { contentData } from "../data.js";
 
 function MainContainer() {
   return (
@@ -17,13 +18,14 @@ function MainContainer() {
         </div>
         <SearchSection />
         <div className={"question_boxes_container"}>
-          <QuestionBox />
-          <QuestionBox />
-          <QuestionBox />
-          <QuestionBox />
-          <QuestionBox />
-          <QuestionBox />
-          <QuestionBox />
+          {contentData.map((i) => {
+            return (
+              <QuestionBox
+                question_category={i.question_category}
+                questions={i.questions}
+              />
+            );
+          })}
         </div>
       </div>
     </div>

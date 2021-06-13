@@ -9,7 +9,7 @@ function Header() {
   return (
     <div className={"header_div"}>
       <div className={"toggle_cover"}>
-        <div className="container" onClick={myFunction}>
+        <div className="container">
           <div class="bar1"></div>
           <div class="bar2"></div>
           <div class="bar3"></div>
@@ -24,8 +24,8 @@ function Header() {
   );
 }
 
-function myFunction(x) {
-  x.classList.toggle("change");
-}
+// function myFunction(x) {
+//   x.classList.toggle("change");
+// }
 
 export default Header;
